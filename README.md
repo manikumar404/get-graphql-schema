@@ -8,7 +8,7 @@
  npm install
 ```
 
-## if your project is already using apollo-graphq replace import with:
+## if your project is already using apollo-graphq replace import of main.js with:
 ```
 const { buildClientSchema } = require('graphql');
 const {printSchema} = require('graphql');
