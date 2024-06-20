@@ -8,6 +8,12 @@
  npm install
 ```
 
+## if your project is already using apollo-graphq replace import with:
+```
+const { buildClientSchema } = require('graphql');
+const {printSchema} = require('graphql');
+```
+
 ## To generate schema from on client side from the server: 
   1. change the server url.
   2. paste the authorization key.
