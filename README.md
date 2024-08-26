@@ -14,7 +14,7 @@ const { buildClientSchema } = require('graphql');
 const {printSchema} = require('graphql');
 ```
 
-## To generate schema from on client side from the server: 
+## To generate schema from the client side from the server: 
   1. change the server url.
   2. paste the authorization key.
   3. run.
