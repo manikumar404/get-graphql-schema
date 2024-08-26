@@ -5,13 +5,13 @@ const {printSchema} = require('graphql/utilities/schemaPrinter');
 
 function main() {
     getRemoteSchema(
-        'https://ohb-server1.apps.selise.dev/api/v1/graphql',
+        '<url>',
         {
             method: 'POST',
             headers: {
                 'user-agent': 'JS GraphQL',
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer eyIUzI1NiJ9.eyJqdGkiOiIwMDUwMTI0Ni0xMjVkLTRjNTQtYmI0My1hYjI2OGJiMTE0ZDUiLCJzdWIiOiIxMDciLCJzY3AiOiJ1c2VyIiwiYXVkIjpudWxsLCJleHAiOjE3MTg4NTk4NDAsImlhdCI6MTcxODY4NzA0MH0.L4Zz5irfDJqQCmxNMFHXh0afFU30oeafZri6h5-U118'
+                'Authorization': '<token>'
             },
         }
     ).then(res => {
